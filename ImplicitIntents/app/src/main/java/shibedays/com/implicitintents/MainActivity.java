@@ -2,6 +2,7 @@ package shibedays.com.implicitintents;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v4.app.ShareCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -38,5 +39,23 @@ public class MainActivity extends AppCompatActivity {
     public void openLocation(View view){
         String loc = mLocationEditText.getText().toString();
         Uri addressURI = Uri.parse("geo:0,0?q=" + loc);
+        Intent intent = new Intent(Intent.ACTION_VIEW, addressURI);
+        if(intent.resolveActivity(getPackageManager()) != null){
+            startActivity(intent);
+        }
+        else{
+            Log.e("ImplicitIntents", "Can't handle this location!");
+        }
+    }
+
+    public void shareText(View view){
+        String text = mShareTextEditText.getText().toString();
+        String mimeType = "text/plain";
+        ShareCompat.IntentBuilder
+                .from(this)
+                .setType(mimeType)
+                .setChooserTitle("Share this text with: ")
+                .setText(text)
+                .startChooser();
     }
 }
