@@ -9,4 +9,10 @@
     <string name="donut_order_message">You ordered a donut.</string>
     <string name="ice_cream_order_message">You ordered ice-cream.</string>
     <string name="froyo_order_message">You ordered froyo.</string>
+    <string name="choose_delivery_method">Choose a delivery method:</string>
+    <string name="radio_same_day">Same day delivery.</string>
+    <string name="radio_next_day">Next day ground delivery</string>
+    <string name="radio_pick_up">Pick up</string>
+    <string name="chosen">Chosen: </string>
+    <string name="nothing_clicked">onRadioButtonClicked: nothing selected</string>
 </resources>
