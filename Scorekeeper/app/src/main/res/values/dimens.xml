@@ -51,4 +51,5 @@
     <dimen name="icon_width_height">30dp</dimen>
 
     <dimen name="count_text_size">160sp</dimen>
+    <dimen name="button_size">70dp</dimen>
 </resources>

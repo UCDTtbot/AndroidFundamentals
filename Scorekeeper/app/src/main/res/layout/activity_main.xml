@@ -18,39 +18,39 @@
 
         <TextView
             android:id="@+id/team_one"
+            android:text="@string/team_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/team_one"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            style="@style/TeamText" />
 
         <ImageButton
             android:id="@+id/minus_one"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_minus"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:contentDescription="@string/minus_descrip"
-            android:onClick="decreaseScore"/>
+            android:onClick="decreaseScore"
+            style="@style/MinusButtons"/>
 
         <TextView
             android:id="@+id/score_one"
+            android:text="@string/default_score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/default_score"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            style="@style/ScoreText"/>
 
         <ImageButton
             android:id="@+id/plus_one"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_plus"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:contentDescription="@string/plus_descrip"
-            android:onClick="increaseScore"/>
+            android:onClick="increaseScore"
+            style="@style/PlusButtons"/>
 
     </RelativeLayout>
 
@@ -65,17 +65,17 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:text="@string/team_two"/>
+            android:text="@string/team_two"
+            style="@style/TeamText"/>
 
         <ImageButton
             android:id="@+id/minus_two"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_minus"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:contentDescription="@string/minus_descrip"
-            android:onClick="decreaseScore"/>
+            android:onClick="decreaseScore"
+            style="@style/MinusButtons"/>
 
         <TextView
             android:id="@+id/score_two"
@@ -83,17 +83,17 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="@string/default_score"/>
+            android:text="@string/default_score"
+            style="@style/ScoreText"/>
 
         <ImageButton
             android:id="@+id/plus_two"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_plus"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:contentDescription="@string/plus_descrip"
-            android:onClick="increaseScore"/>
+            android:onClick="increaseScore"
+            style="@style/PlusButtons"/>
 
     </RelativeLayout>
 
