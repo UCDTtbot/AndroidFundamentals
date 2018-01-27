@@ -5,33 +5,39 @@ package android.shibedays.com.materialdesign;
  */
 class Sport {
 
-    //Member variables representing the title and information about the sport
+    //Member variables representing the mTitle and information about the sport
     private String title;
     private String info;
+    private final int imageResource;
 
     /**
      * Constructor for the Sport data model
-     * @param title The name if the sport.
+     * @param mTitle The name if the sport.
      * @param info Information about the sport.
      */
-    Sport(String title, String info) {
-        this.title = title;
+    public Sport(String mTitle, String info, int imageResource) {
+        this.title = mTitle;
         this.info = info;
+        this.imageResource = imageResource;
     }
 
     /**
-     * Gets the title of the sport
-     * @return The title of the sport.
+     * Gets the mTitle of the sport
+     * @return The mTitle of the sport.
      */
-    String getTitle() {
+    public String getTitle() {
         return title;
     }
     /**
      * Gets the info about the sport
      * @return The info about the sport.
      */
-    String getInfo() {
+    public String getInfo() {
         return info;
+    }
+
+    public int getImageResource(){
+        return imageResource;
     }
 }
 
