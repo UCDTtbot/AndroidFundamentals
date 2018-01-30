@@ -50,5 +50,5 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@id/button_main"
         android:layout_toStartOf="@id/button_main"
-        android:text="@string/editText_main" />
+        android:hint="@string/editText_main" />
 </RelativeLayout>

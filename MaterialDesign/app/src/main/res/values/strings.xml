@@ -3,6 +3,7 @@
     <string name="title_placeholder">Title</string>
     <string name="news_placeholder">News</string>
     <string name="sports_info_placeholder">Here is some news</string>
+    <string name="lorum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet turpis dolor. Aliquam bibendum eu turpis id suscipit. Ut metus nunc, vulputate vel ipsum nec, suscipit vulputate lectus. Cras vel rutrum purus, accumsan sollicitudin nulla. Curabitur et ex sed lacus viverra luctus vel a arcu. Pellentesque ex lectus, consectetur id eros consectetur, pharetra aliquet libero. Vestibulum efficitur lorem ex, nec dictum justo ornare sollicitudin. Vivamus erat libero, volutpat vel est sit amet, dapibus pellentesque diam. Fusce at orci finibus, faucibus diam sit amet, lobortis magna. Sed tincidunt mattis justo auctor tincidunt. Pellentesque a justo lectus. Pellentesque ex nibh, condimentum fringilla consectetur sit amet, condimentum non dolor. Sed tempor enim sed nisl porttitor, ut dignissim tortor finibs. Fusce ac mauris porta, viverra augue non, finibus justo.</string>
 
     <string-array name="sports_titles">
         <item>Baseball</item>
@@ -12,7 +13,7 @@
         <item>Cycling</item>
         <item>Golf</item>
         <item>Running</item>
-        <item>Soccer</item>
+        <item>Football</item>
         <item>Swimming</item>
         <item>Table Tennis</item>
         <item>Tennis</item>
@@ -26,7 +27,7 @@
         <item>Here is some Cycling news!</item>
         <item>Here is some Golf news!</item>
         <item>Here is some Running news!</item>
-        <item>Here is some Soccer news!</item>
+        <item>Here is some Football news!</item>
         <item>Here is some Swimming news!</item>
         <item>Here is some Table Tennis news!</item>
         <item>Here is some Tennis news!</item>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpleASyncTask</string>
+    <string name="text_init_val">I am ready to start work!</string>
+    <string name="button_label">Start Task</string>
+</resources>

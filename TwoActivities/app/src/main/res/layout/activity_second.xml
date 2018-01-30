@@ -47,7 +47,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@id/button_second"
         android:layout_toStartOf="@id/button_second"
-        android:text="@string/editText_second" />
+        android:hint="@string/editText_second" />
 
 
 </RelativeLayout>

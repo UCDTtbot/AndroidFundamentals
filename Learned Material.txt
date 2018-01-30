@@ -1,0 +1,34 @@
+Chapter 1:
+	Android Studio Setup
+	Adding UI Elements with the layout editor and XML
+	Click listeners and toasts
+	Relative Layouts
+	Adding TextView, ScrollView, and LinearLayouts in XML
+
+Chapter 2:
+	Activities, Intents, Starting Activities, Adding Activities
+	Activity Lifecycle, Callbacks, Overrides, Device Config, InstanceStates, Restoring States
+	Implicit Intents, Intent Builder
+
+Chapter 3:
+	View logging, basic debugging
+	Unit Tests, JUnit, @SmallTest @MediumTest @LargeTest
+	SDK Versions, Support Libraries, SDK Manager
+
+Chapter 4:
+	XML Layout Attributes, EditText Attributes, Spinners, AlertDialog, Date and time Pickers, Images, Radio Buttons
+	Options Menu, ActionBar, Fragments, Icons, Implicit Intents
+	Up-Navigation, Lateral Navigation, ViewPagers, TabLayout
+	RecyclerView, Dynamic Data, Support Library, Build Dependencies, LayoutInflators, FAB
+
+Chapter 5:
+	Drawables, ShapeDrawables, Styles, Themes
+	Material Design, CardViews, Glide Image Loading, FAB, Material Colors, Dragging and Swiping CardViews
+	GridLayoutManager, Phone vs. Tablet Layouts, Alternative Resource Files, Locale
+
+Chapter 6:
+	Espresso UI Tests, Dependencies, onView, ViewMatcher, onData, getResources, RecyclerViewActions, Test Recording
+
+Chapter 7:
+	ASyncTask, onPreExecute(), doInBackground(), onPostExecute(), onProgressUpdate(), onSavedInstanceState()
+	
