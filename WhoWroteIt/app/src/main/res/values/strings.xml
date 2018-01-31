@@ -3,7 +3,8 @@
     <string name="text_instructions">Please enter the full or partial title of a book below</string>
     <string name="edit_book_hint">Enter Book Title</string>
     <string name="button_submit">Search Books</string>
-    <string name="loading_message">Loading</string>
+    <string name="loading_message">Loading…</string>
     <string name="message_no_input">Please enter a book to search.</string>
     <string name="message_no_network">Please check your network connection and try again.</string>
+    <string name="no_results_found">No Results Found</string>
 </resources>
