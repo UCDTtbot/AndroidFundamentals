@@ -14,23 +14,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_notify"
-        android:layout_margin="@dimen/button_margin"
-        android:onClick="sendNotif"/>
+        android:layout_margin="@dimen/button_margin" />
 
     <Button
         android:id="@+id/update"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_update"
-        android:layout_margin="@dimen/button_margin"
-        android:onClick="updateNotif"/>
+        android:layout_margin="@dimen/button_margin" />
 
     <Button
         android:id="@+id/cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_cancel"
-        android:layout_margin="@dimen/button_margin"
-        android:onClick="cancelNotif"/>
+        android:layout_margin="@dimen/button_margin" />
 
 </LinearLayout>

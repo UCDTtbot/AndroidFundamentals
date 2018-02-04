@@ -33,3 +33,9 @@ Chapter 7:
 	ASyncTask, onPreExecute(), doInBackground(), onPostExecute(), onProgressUpdate(), onSavedInstanceState()
 	Execution off the UI thread, Google API Explorer, Uri building, ASyncTask to load API data, ASyncTaskLoader, Network Persmissions, JSON, Loaders\
 	Broadcast Receivers, Intent Broadcasts, Manifest/Programatically made Receivers, PackageManager, LocalBroadcastManager, Broadcast Intents
+
+Chapter 8:
+	Sending Notifications, Notification Icons/Text/Pictures, Notif Settings, Updating Notifs, Priorities, Pending Intents
+	AlarmManager, Alarm Types, Inexact Timing, Toggle BUttons, Pending Intents
+	JobScheduler, Notificatrions, JobInfo Conditions, Main Thread Processing
+	

@@ -3,4 +3,5 @@
     <string name="button_notify">Notify Me!</string>
     <string name="button_cancel">Cancel Me!</string>
     <string name="button_update">Update Me!</string>
+    <string name="url_mat_design">https://developer.android.com/design/patterns/notifications.html</string>
 </resources>
