@@ -38,4 +38,6 @@ Chapter 8:
 	Sending Notifications, Notification Icons/Text/Pictures, Notif Settings, Updating Notifs, Priorities, Pending Intents
 	AlarmManager, Alarm Types, Inexact Timing, Toggle BUttons, Pending Intents
 	JobScheduler, Notificatrions, JobInfo Conditions, Main Thread Processing
-	
+
+Chapter 9:
+	Settings Activity Template, PreferenceFragment, SharedPreferences, PreferenceManager
