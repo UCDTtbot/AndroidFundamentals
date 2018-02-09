@@ -8,7 +8,7 @@
     android:layout_marginBottom="@dimen/activity_vertical_margin"
     android:layout_marginLeft="@dimen/activity_horizontal_margin"
     android:layout_marginTop="@dimen/activity_vertical_margin"
-    tools:context="shibedays.com.droidcafeappbar.OrderActivity">
+    tools:context="shibedays.com.droidcafesettings.OrderActivity">
 
     <TextView
         android:id="@+id/order_intro_text"

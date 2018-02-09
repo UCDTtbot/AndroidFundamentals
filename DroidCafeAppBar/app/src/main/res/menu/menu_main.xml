@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="shibedays.com.droidcafeappbar.MainActivity">
+    tools:context="shibedays.com.droidcafesettings.MainActivity">
     <item
         android:id="@+id/action_contact"
         android:orderInCategory="100"
@@ -28,4 +28,10 @@
         android:title="@string/action_fav"
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_fav_white"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="50"
+        android:title="@string/appbar_settings"
+        app:showAsAction="never"/>
 </menu>
