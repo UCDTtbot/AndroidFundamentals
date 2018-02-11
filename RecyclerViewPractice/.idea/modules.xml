@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MaterialDesign - Pre-Improvement.iml" filepath="$PROJECT_DIR$/MaterialDesign - Pre-Improvement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerViewPractice.iml" filepath="$PROJECT_DIR$/RecyclerViewPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
